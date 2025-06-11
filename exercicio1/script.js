@@ -13,3 +13,18 @@ soma.addEventListener("click", () => {
     resultado = parseFloat(valor1.value) + parseFloat(valor2.value);
     alert(resultado);
 });
+
+subtracao.addEventListener("click", () => {
+    resultado = parseFloat(valor1.value) - parseFloat(valor2.value);
+    alert(resultado);
+});
+
+multiplicacao.addEventListener("click", () => {
+    resultado = parseFloat(valor1.value) * parseFloat(valor2.value);
+    alert(resultado);
+});
+
+divisao.addEventListener("click", () => {
+    resultado = parseFloat(valor1.value) / parseFloat(valor2.value);
+    alert(resultado);
+});
